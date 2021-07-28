@@ -1,0 +1,17 @@
+.intro {
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  padding: 64px 0;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding: 88px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    padding: 92px 0;
+  }
+}

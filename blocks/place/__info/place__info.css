@@ -1,0 +1,9 @@
+.place__info {
+  margin: 0 16px;
+}
+
+@media (min-width: 625px) {
+  .place__info {
+    margin: 0;
+  }
+}

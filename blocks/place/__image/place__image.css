@@ -1,0 +1,16 @@
+.place__image {
+  max-width: 100%;
+  margin-bottom: 32px;
+  object-fit: cover;
+  height: 320px;
+  width: 100%;
+}
+
+@media (min-width: 625px) {
+  .place__image {
+    height: auto;
+    width: auto;
+    object-fit: initial;
+    margin-bottom: 0;
+  }
+}
