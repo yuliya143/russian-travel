@@ -50,6 +50,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__container/cover__container.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__content/cover__content.css);

@@ -6,4 +6,11 @@
   line-height: 1.22;
   color: #fff;
   text-decoration-line: underline;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .website__link:hover {
+    opacity: 0.8;
+  }
 }

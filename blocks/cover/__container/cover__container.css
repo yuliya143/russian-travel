@@ -10,11 +10,20 @@
 
 .cover__container::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.3);
+  background: #2a2a2f;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cover__container:hover::after {
+    background: #2a2a2f;
+    opacity: 0.8;
+  }
 }
