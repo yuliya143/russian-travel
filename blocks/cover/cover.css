@@ -1,9 +1,5 @@
 .cover {
+  font-family: "Inter", "Arial", sans-serif;
+  color: #fff;
   background-color: #2a2c2f;
 }
-
-/*
-.cover:hover {
-  opacity: 0.8;
-}
-*/

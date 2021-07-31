@@ -1,6 +1,5 @@
 .page {
-  /* margin: 0 auto; */
-  /* background-color: #2a2c2f; */
+  background-color: #2a2c2f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-/* /*font-family: 'Inter', 'Arial', sans-serif; */

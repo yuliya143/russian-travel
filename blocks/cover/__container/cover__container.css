@@ -23,7 +23,6 @@
 
 @media (hover: hover) and (pointer: fine) {
   .cover__container:hover::after {
-    background: #2a2a2f;
     opacity: 0.8;
   }
 }
