@@ -1,9 +1,0 @@
-.cover__subtitle-line {
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .cover__subtitle-line {
-    display: inline;
-  }
-}

@@ -1,4 +1,43 @@
 .cover__link {
   text-decoration: none;
   color: #fff;
+  background-image: -webkit-image-set(
+    url("../../../images/cover-trains.webp") 1x,
+    url("../../../images/cover-trains@2x.webp") 2x,
+    url("../../../images/cover-trains.jpg") 1x
+  );
+  background-image: image-set(
+    url("../../../images/cover-trains.webp") 1x,
+    url("../../../images/cover-trains@2x.webp") 2x,
+    url("../../../images/cover-trains.jpg") 1x
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 200px;
+  aspect-ratio: 8 / 5;
+}
+
+.cover__link::after {
+  content: "";
+  background: #2a2a2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cover__link:hover::after {
+    opacity: 0.8;
+  }
 }
